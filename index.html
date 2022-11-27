@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sidebar</title>
+</head>
+
+<body>
+    <nav class="sidebar close">
+        <div class="header">
+            <div class="image-text">
+                <span class="image">
+                    <img src="./logo.svg" alt="">
+                </span>
+
+                <div class="text header-text">
+                    <span class="name">Logo Ipsum</span>
+                    <span class="profession">Sidebar Exmaple</span>
+                </div>
+            </div>
+
+            <i class="fa-solid fa-chevron-right toggle"></i>
+        </div>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="">
+                            <i class="fa-solid fa-home icon"></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="">
+                            <i class="fa-solid fa-chart-simple icon"></i>
+                            <span class="text nav-text">Revenue</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="">
+                            <i class="fa-solid fa-bell icon"></i>
+                            <span class="text nav-text">Notifications</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="">
+                            <i class="fa-solid fa-chart-pie icon"></i>
+                            <span class="text nav-text">Analytics</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="">
+                            <i class="fa-solid fa-heart icon"></i>
+                            <span class="text nav-text">Likes</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="">
+                            <i class="fa-solid fa-wallet icon"></i>
+                            <span class="text nav-text">Wallet</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="">
+                        <i class="fa-solid fa-arrow-right-from-bracket icon logout"></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="moon-sun">
+                        <i class="fa-solid fa-moon icon moon"></i>
+                        <i class="fa-solid fa-sun icon sun"></i>
+                    </div>
+                    <span class="mode-text text">Dark Mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home">
+        <div class="text">Dashboard</div>
+    </section>
+
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/52f596b907.js" crossorigin="anonymous" asp-append-version="true"></script>
+</body>
+
+</html>
